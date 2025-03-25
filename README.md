@@ -73,7 +73,6 @@
     private Transform RagdollRoot;
     [SerializeField]
     private bool StartRagdoll = false;
-    // Only public for Ragdoll Runtime GUI for explosive force
     public Rigidbody[] Rigidbodies;
     private CharacterJoint[] Joints;
     private Collider[] Colliders;
